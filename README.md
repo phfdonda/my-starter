@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is my own [Next.js](https://nextjs.org/) starter.
+
+## Modifications
+
+_The difference from the original starter created using `npx create-next-app@latest` is that I changed the following:_
+
+> 1. Added SASS for styling.
+> 2. Created folders for the style sheets, components and hooks.
+> 3. Changed the extensions of the files from `.js` to `.jsx`.
+> 4. Added the baseUrl to the `jsconfig.json` file.
+> 5. Added support for several file extensions in the `next.config.js`
+
+## Choices
+
+_I have chosen to create a simple `.js` starter, and just add a branch later with the Typescript version of it._
 
 ## Getting Started
 
@@ -32,5 +46,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
